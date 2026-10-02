@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Se usar este código, por favor cite-o como abaixo."
+title: "Insegurança alimentar e perfil socioeconômico no Brasil: análise dos microdados da POF 2017-2018"
+type: software
+authors:
+  - family-names: Saldanha
+    given-names: Alexandre
+license: MIT
+repository-code: "https://github.com/alexandrepsaldanha/inseguranca-alimentar-pof"
+keywords:
+  - insegurança alimentar
+  - EBIA
+  - POF
+  - IBGE
+  - amostragem complexa
+  - survey
+  - R

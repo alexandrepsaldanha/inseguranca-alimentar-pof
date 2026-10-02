@@ -1,0 +1,23 @@
+# --- Microdados: nunca versionar ---
+data/raw/*
+!data/raw/LEIAME.md
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.rds
+*.RData
+*.txt.zip
+*.zip
+
+# --- R / RStudio ---
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+~$*
