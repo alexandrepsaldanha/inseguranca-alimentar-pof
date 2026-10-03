@@ -68,7 +68,7 @@ Tabelas completas, com erros-padrão, intervalos de confiança, coeficientes de 
 │   └── 02_analise.R          # estimativas, testes, gráficos e tabelas
 ├── data/
 │   ├── raw/                  # microdados do IBGE (não versionados)
-│   └── processed/            # base preparada (não versionada)
+│   └── processed/            # base analítica pronta (.rds e .csv.gz)
 ├── output/
 │   ├── figures/
 │   └── tables/
@@ -78,13 +78,13 @@ Tabelas completas, com erros-padrão, intervalos de confiança, coeficientes de 
 
 ## Como reproduzir
 
-1. Baixe os microdados da POF 2017-2018 e rode o programa de leitura do IBGE (passo a passo em [`data/raw/LEIAME.md`](data/raw/LEIAME.md)).
-2. Copie `MORADOR.rds` e `DOMICILIO.rds` para `data/raw/`.
-3. Na raiz do repositório, execute:
+**Caminho rápido.** A base analítica já vem no repositório ([`data/processed/`](data/processed/LEIAME.md)). Clone e execute, na raiz:
 
 ```r
 source("run_all.R")
 ```
+
+**Do zero, a partir dos microdados do IBGE.** Baixe os microdados da POF 2017-2018 e rode o programa de leitura do IBGE (passo a passo em [`data/raw/LEIAME.md`](data/raw/LEIAME.md)). Copie `MORADOR.rds` e `DOMICILIO.rds` para `data/raw/` e execute o mesmo comando: com os microdados presentes, a base é refeita antes da análise.
 
 Requer R ≥ 4.1 e os pacotes `dplyr`, `ggplot2`, `survey` e `writexl` (instalados automaticamente se faltarem).
 
@@ -100,4 +100,4 @@ Requer R ≥ 4.1 e os pacotes `dplyr`, `ggplot2`, `survey` e `writexl` (instalad
 
 Projeto desenvolvido em consultoria estatística para uma pesquisa de mestrado em Saúde Coletiva.
 
-Código sob licença [MIT](LICENSE). Os microdados são do IBGE.
+Código sob licença [MIT](LICENSE). Dados: IBGE, POF 2017-2018 (microdados públicos).

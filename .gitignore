@@ -4,7 +4,11 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/LEIAME.md
 *.rds
+# Base analítica pública (POF/IBGE), publicada de propósito
+!data/processed/pof2017_domicilios.rds
+!data/processed/pof2017_domicilios.csv.gz
 *.RData
 *.txt.zip
 *.zip
