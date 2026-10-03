@@ -37,7 +37,7 @@ pessoa_referencia <- morador |>
     NIVEL_INSTRUCAO,
     RENDA_DISP_PC,
     RENDA_MONET_PC,
-    COMPOSICAO_FAMILIAR = COMPOSICAO
+    COMPOSICAO_FAMILIAR = C6
   )
 
 caracteristicas_domicilio <- domicilio |>

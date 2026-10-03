@@ -19,6 +19,7 @@ Como a segurança alimentar dos domicílios brasileiros varia segundo renda, esc
 | **Fonte** | [POF 2017-2018, IBGE](https://www.ibge.gov.br/estatisticas/sociais/saude/24786-pesquisa-de-orcamentos-familiares-2.html) (microdados públicos) |
 | **Desfecho** | Escala Brasileira de Insegurança Alimentar (EBIA): segurança, insegurança leve, moderada e grave |
 | **Unidade de análise** | Domicílio; características individuais referem-se à pessoa de referência |
+| **Amostra** | 57.920 domicílios |
 | **Registros usados** | MORADOR e DOMICILIO |
 
 ## Estratégia empírica
@@ -48,11 +49,13 @@ As estimativas reproduzem a divulgação oficial do IBGE para a POF 2017-2018:
 | Nível de instrução | [ver](output/figures/seguranca_por_nivel_instrucao_desc.png) |
 | Cor ou raça | [ver](output/figures/seguranca_por_cor_raca_desc.png) |
 | Sexo | [ver](output/figures/seguranca_por_sexo_desc.png) |
+| Idade | [ver](output/figures/seguranca_por_faixa_idade.png) |
 | Composição familiar | [ver](output/figures/seguranca_por_composicao_familiar_desc.png) |
 | Grande região | [ver](output/figures/seguranca_por_grande_regiao_desc.png) |
 | Unidade da federação | [ver](output/figures/seguranca_por_uf_desc.png) |
+| Situação urbano/rural | [ver](output/figures/seguranca_por_urbano_rural_desc.png) |
 
-Ao executar o código, as tabelas completas, com erros-padrão, intervalos de confiança e testes, são gravadas em `output/tables/`.
+Tabelas completas, com erros-padrão, intervalos de confiança, coeficientes de variação e testes: [`output/tables/resultados.xlsx`](output/tables/resultados.xlsx) (também em `.csv` na mesma pasta).
 
 ## Estrutura
 

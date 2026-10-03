@@ -63,7 +63,7 @@ Para cada variável explicativa:
 2. `prop.table(margin = 2)` calcula a distribuição da segurança alimentar **dentro** de cada categoria (perfil coluna). Exemplo: entre os domicílios com renda per capita de até R\$ 500, qual a proporção em cada nível de insegurança.
 3. `svychisq()` aplica o teste qui-quadrado com a correção de Rao-Scott, que ajusta a estatística ao plano amostral. A hipótese nula é de independência entre a segurança alimentar e a variável.
 
-Com cerca de 58 mil domicílios na amostra, praticamente toda associação é estatisticamente significativa. Por isso, a leitura relevante está no **tamanho** das diferenças entre os perfis, não só no valor-p.
+Com 57.920 domicílios na amostra, praticamente toda associação é estatisticamente significativa. Por isso, a leitura relevante está no **tamanho** das diferenças entre os perfis, não só no valor-p.
 
 ## 6. Gráficos (`grafico_perfil()`)
 
@@ -96,7 +96,7 @@ Barras horizontais empilhadas em 100%, uma barra por categoria. Escolhas de dese
 | `NIVEL_INSTRUCAO` | Morador | `NIVEL_INSTRUCAO` |
 | `RENDA_DISP_PC` | Morador | `RENDA_DISP_PC` |
 | `RENDA_MONET_PC` | Morador | `RENDA_MONET_PC` |
-| `COMPOSICAO` | Morador | `COMPOSICAO_FAMILIAR` |
+| `C6` | Morador | `COMPOSICAO_FAMILIAR` |
 | `TIPO_SITUACAO_REG` | ambos | `URBANO_RURAL` |
 | `V0207` | Domicílio | `FORMA_ABAST_AGUA` |
 | `V0212` | Domicílio | `ESCOADOURO_DEJECOES` |

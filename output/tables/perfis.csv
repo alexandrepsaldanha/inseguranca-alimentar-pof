@@ -1,0 +1,257 @@
+"variavel","categoria","TIPO_SEGURANCA_ALIMENTAR","percentual"
+"FAIXA_RENDA_PC","Até R$ 500","Segurança",32.4113115376138
+"FAIXA_RENDA_PC","Até R$ 500","Insegurança leve",35.6660908599518
+"FAIXA_RENDA_PC","Até R$ 500","Insegurança moderada",19.0489201022153
+"FAIXA_RENDA_PC","Até R$ 500","Insegurança grave",12.873677500219
+"FAIXA_RENDA_PC","R$ 501 a R$ 1.000","Segurança",48.6847936494252
+"FAIXA_RENDA_PC","R$ 501 a R$ 1.000","Insegurança leve",33.4068250416636
+"FAIXA_RENDA_PC","R$ 501 a R$ 1.000","Insegurança moderada",11.7575893264609
+"FAIXA_RENDA_PC","R$ 501 a R$ 1.000","Insegurança grave",6.15079198245038
+"FAIXA_RENDA_PC","R$ 1.001 a R$ 2.000","Segurança",66.1888406764554
+"FAIXA_RENDA_PC","R$ 1.001 a R$ 2.000","Insegurança leve",24.17493459484
+"FAIXA_RENDA_PC","R$ 1.001 a R$ 2.000","Insegurança moderada",6.39251882559377
+"FAIXA_RENDA_PC","R$ 1.001 a R$ 2.000","Insegurança grave",3.24370590311091
+"FAIXA_RENDA_PC","R$ 2.001 a R$ 5.000","Segurança",82.7464414528834
+"FAIXA_RENDA_PC","R$ 2.001 a R$ 5.000","Insegurança leve",12.8250139244256
+"FAIXA_RENDA_PC","R$ 2.001 a R$ 5.000","Insegurança moderada",2.99045400974206
+"FAIXA_RENDA_PC","R$ 2.001 a R$ 5.000","Insegurança grave",1.43809061294893
+"FAIXA_RENDA_PC","Acima de R$ 5.000","Segurança",94.5540388048572
+"FAIXA_RENDA_PC","Acima de R$ 5.000","Insegurança leve",4.29472784249571
+"FAIXA_RENDA_PC","Acima de R$ 5.000","Insegurança moderada",0.739760528056151
+"FAIXA_RENDA_PC","Acima de R$ 5.000","Insegurança grave",0.411472824590979
+"FAIXA_IDADE","Até 19 anos","Segurança",53.486160778302
+"FAIXA_IDADE","Até 19 anos","Insegurança leve",29.3806823748562
+"FAIXA_IDADE","Até 19 anos","Insegurança moderada",9.63776687140238
+"FAIXA_IDADE","Até 19 anos","Insegurança grave",7.49538997543948
+"FAIXA_IDADE","20–39 anos","Segurança",58.4985465256902
+"FAIXA_IDADE","20–39 anos","Insegurança leve",28.5926811739083
+"FAIXA_IDADE","20–39 anos","Insegurança moderada",8.23716798366035
+"FAIXA_IDADE","20–39 anos","Insegurança grave",4.67160431674121
+"FAIXA_IDADE","40–59 anos","Segurança",61.5403250111312
+"FAIXA_IDADE","40–59 anos","Insegurança leve",24.2967365736266
+"FAIXA_IDADE","40–59 anos","Insegurança moderada",9.04272747192631
+"FAIXA_IDADE","40–59 anos","Insegurança grave",5.12021094331591
+"FAIXA_IDADE","60 anos ou mais","Segurança",70.9186063356331
+"FAIXA_IDADE","60 anos ou mais","Insegurança leve",18.9040989723071
+"FAIXA_IDADE","60 anos ou mais","Insegurança moderada",6.63552576670145
+"FAIXA_IDADE","60 anos ou mais","Insegurança grave",3.54176892535828
+"SEXO_DESC","Homem","Segurança",66.7795315205152
+"SEXO_DESC","Homem","Insegurança leve",22.4498220722748
+"SEXO_DESC","Homem","Insegurança moderada",7.00485659958882
+"SEXO_DESC","Homem","Insegurança grave",3.76578980762113
+"SEXO_DESC","Mulher","Segurança",58.4531198458104
+"SEXO_DESC","Mulher","Insegurança leve",26.2061146026561
+"SEXO_DESC","Mulher","Insegurança moderada",9.69082156917461
+"SEXO_DESC","Mulher","Insegurança grave",5.64994398235887
+"COR_RACA_DESC","Branca","Segurança",73.9329916542987
+"COR_RACA_DESC","Branca","Insegurança leve",18.6297126796727
+"COR_RACA_DESC","Branca","Insegurança moderada",4.88066279136295
+"COR_RACA_DESC","Branca","Insegurança grave",2.55663287466561
+"COR_RACA_DESC","Preta","Segurança",54.0874313852299
+"COR_RACA_DESC","Preta","Insegurança leve",28.9179524478488
+"COR_RACA_DESC","Preta","Insegurança moderada",10.8869348453755
+"COR_RACA_DESC","Preta","Insegurança grave",6.10768132154581
+"COR_RACA_DESC","Parda","Segurança",54.5906125918279
+"COR_RACA_DESC","Parda","Insegurança leve",28.4708135494126
+"COR_RACA_DESC","Parda","Insegurança moderada",10.7540280230051
+"COR_RACA_DESC","Parda","Insegurança grave",6.18454583575434
+"COR_RACA_DESC","Amarela","Segurança",84.1944044038129
+"COR_RACA_DESC","Amarela","Insegurança leve",10.1499485512489
+"COR_RACA_DESC","Amarela","Insegurança moderada",3.96196890857155
+"COR_RACA_DESC","Amarela","Insegurança grave",1.6936781363667
+"COR_RACA_DESC","Indígena","Segurança",52.4385687130588
+"COR_RACA_DESC","Indígena","Insegurança leve",25.1411217543357
+"COR_RACA_DESC","Indígena","Insegurança moderada",12.7586683750358
+"COR_RACA_DESC","Indígena","Insegurança grave",9.66164115756964
+"COR_RACA_DESC","Sem declaração","Segurança",65.5673663028094
+"COR_RACA_DESC","Sem declaração","Insegurança leve",24.1819262297729
+"COR_RACA_DESC","Sem declaração","Insegurança moderada",5.96481231613858
+"COR_RACA_DESC","Sem declaração","Insegurança grave",4.28589515127913
+"NIVEL_INSTRUCAO_DESC","Sem instrução","Segurança",49.6319399894279
+"NIVEL_INSTRUCAO_DESC","Sem instrução","Insegurança leve",25.8687322108579
+"NIVEL_INSTRUCAO_DESC","Sem instrução","Insegurança moderada",15.0907925349747
+"NIVEL_INSTRUCAO_DESC","Sem instrução","Insegurança grave",9.40853526473956
+"NIVEL_INSTRUCAO_DESC","Fundamental incompleto","Segurança",56.6089821871377
+"NIVEL_INSTRUCAO_DESC","Fundamental incompleto","Insegurança leve",26.5982808503755
+"NIVEL_INSTRUCAO_DESC","Fundamental incompleto","Insegurança moderada",10.2202444842897
+"NIVEL_INSTRUCAO_DESC","Fundamental incompleto","Insegurança grave",6.5724924781971
+"NIVEL_INSTRUCAO_DESC","Fundamental completo","Segurança",61.4661626563261
+"NIVEL_INSTRUCAO_DESC","Fundamental completo","Insegurança leve",26.6277721998644
+"NIVEL_INSTRUCAO_DESC","Fundamental completo","Insegurança moderada",7.78375252575155
+"NIVEL_INSTRUCAO_DESC","Fundamental completo","Insegurança grave",4.12231261805794
+"NIVEL_INSTRUCAO_DESC","Médio incompleto","Segurança",54.8014917773281
+"NIVEL_INSTRUCAO_DESC","Médio incompleto","Insegurança leve",30.4508778538096
+"NIVEL_INSTRUCAO_DESC","Médio incompleto","Insegurança moderada",10.1438900217579
+"NIVEL_INSTRUCAO_DESC","Médio incompleto","Insegurança grave",4.60374034710435
+"NIVEL_INSTRUCAO_DESC","Médio completo","Segurança",65.200188741475
+"NIVEL_INSTRUCAO_DESC","Médio completo","Insegurança leve",25.2750101968064
+"NIVEL_INSTRUCAO_DESC","Médio completo","Insegurança moderada",6.67467005798348
+"NIVEL_INSTRUCAO_DESC","Médio completo","Insegurança grave",2.85013100373511
+"NIVEL_INSTRUCAO_DESC","Superior incompleto","Segurança",71.2533174896229
+"NIVEL_INSTRUCAO_DESC","Superior incompleto","Insegurança leve",19.7584437347947
+"NIVEL_INSTRUCAO_DESC","Superior incompleto","Insegurança moderada",6.52693793298234
+"NIVEL_INSTRUCAO_DESC","Superior incompleto","Insegurança grave",2.46130084260003
+"NIVEL_INSTRUCAO_DESC","Superior completo","Segurança",84.7070205643801
+"NIVEL_INSTRUCAO_DESC","Superior completo","Insegurança leve",12.3051465522351
+"NIVEL_INSTRUCAO_DESC","Superior completo","Insegurança moderada",2.08420610853243
+"NIVEL_INSTRUCAO_DESC","Superior completo","Insegurança grave",0.903626774852335
+"COMPOSICAO_FAMILIAR_DESC","Um adulto sem criança","Segurança",67.6124310299181
+"COMPOSICAO_FAMILIAR_DESC","Um adulto sem criança","Insegurança leve",16.2635932616685
+"COMPOSICAO_FAMILIAR_DESC","Um adulto sem criança","Insegurança moderada",8.10063856680831
+"COMPOSICAO_FAMILIAR_DESC","Um adulto sem criança","Insegurança grave",8.0233371416051
+"COMPOSICAO_FAMILIAR_DESC","Um adulto com ao menos uma criança","Segurança",46.5312192739653
+"COMPOSICAO_FAMILIAR_DESC","Um adulto com ao menos uma criança","Insegurança leve",31.4822777669571
+"COMPOSICAO_FAMILIAR_DESC","Um adulto com ao menos uma criança","Insegurança moderada",13.7564515234428
+"COMPOSICAO_FAMILIAR_DESC","Um adulto com ao menos uma criança","Insegurança grave",8.23005143563479
+"COMPOSICAO_FAMILIAR_DESC","Mais de um adulto sem criança","Segurança",66.8567899039091
+"COMPOSICAO_FAMILIAR_DESC","Mais de um adulto sem criança","Insegurança leve",20.9311575846056
+"COMPOSICAO_FAMILIAR_DESC","Mais de um adulto sem criança","Insegurança moderada",7.96581714302138
+"COMPOSICAO_FAMILIAR_DESC","Mais de um adulto sem criança","Insegurança grave",4.24623536846394
+"COMPOSICAO_FAMILIAR_DESC","Mais de um adulto com ao menos uma criança","Segurança",54.2386819321735
+"COMPOSICAO_FAMILIAR_DESC","Mais de um adulto com ao menos uma criança","Insegurança leve",32.1697585089515
+"COMPOSICAO_FAMILIAR_DESC","Mais de um adulto com ao menos uma criança","Insegurança moderada",8.88054748504448
+"COMPOSICAO_FAMILIAR_DESC","Mais de um adulto com ao menos uma criança","Insegurança grave",4.71101207383053
+"COMPOSICAO_FAMILIAR_DESC","Um ou mais idosos, com ou sem crianças","Segurança",79.6866504242109
+"COMPOSICAO_FAMILIAR_DESC","Um ou mais idosos, com ou sem crianças","Insegurança leve",12.9306728152415
+"COMPOSICAO_FAMILIAR_DESC","Um ou mais idosos, com ou sem crianças","Insegurança moderada",4.86919711044114
+"COMPOSICAO_FAMILIAR_DESC","Um ou mais idosos, com ou sem crianças","Insegurança grave",2.51347965010639
+"COMPOSICAO_FAMILIAR_DESC","Idosos e adultos, com ou sem crianças","Segurança",66.5250714166097
+"COMPOSICAO_FAMILIAR_DESC","Idosos e adultos, com ou sem crianças","Insegurança leve",22.4882818628791
+"COMPOSICAO_FAMILIAR_DESC","Idosos e adultos, com ou sem crianças","Insegurança moderada",7.72144429129491
+"COMPOSICAO_FAMILIAR_DESC","Idosos e adultos, com ou sem crianças","Insegurança grave",3.26520242921634
+"GRANDE_REGIAO_DESC","Norte","Segurança",43.0476671775935
+"GRANDE_REGIAO_DESC","Norte","Insegurança leve",31.7930510664687
+"GRANDE_REGIAO_DESC","Norte","Insegurança moderada",14.9876640289109
+"GRANDE_REGIAO_DESC","Norte","Insegurança grave",10.1716177270269
+"GRANDE_REGIAO_DESC","Nordeste","Segurança",49.6622118894956
+"GRANDE_REGIAO_DESC","Nordeste","Insegurança leve",29.7974561512083
+"GRANDE_REGIAO_DESC","Nordeste","Insegurança moderada",13.3931617299847
+"GRANDE_REGIAO_DESC","Nordeste","Insegurança grave",7.14717022931133
+"GRANDE_REGIAO_DESC","Sudeste","Segurança",68.8176325450829
+"GRANDE_REGIAO_DESC","Sudeste","Insegurança leve",22.5395954932423
+"GRANDE_REGIAO_DESC","Sudeste","Insegurança moderada",5.76767149276446
+"GRANDE_REGIAO_DESC","Sudeste","Insegurança grave",2.87510046891031
+"GRANDE_REGIAO_DESC","Sul","Segurança",79.341623025186
+"GRANDE_REGIAO_DESC","Sul","Insegurança leve",15.2510754242952
+"GRANDE_REGIAO_DESC","Sul","Insegurança moderada",3.18001801632855
+"GRANDE_REGIAO_DESC","Sul","Insegurança grave",2.22728353419025
+"GRANDE_REGIAO_DESC","Centro-Oeste","Segurança",64.8052429881094
+"GRANDE_REGIAO_DESC","Centro-Oeste","Insegurança leve",23.2351213602652
+"GRANDE_REGIAO_DESC","Centro-Oeste","Insegurança moderada",7.2490011964303
+"GRANDE_REGIAO_DESC","Centro-Oeste","Insegurança grave",4.71063445519518
+"UF_DESC","Rondônia","Segurança",63.7492322779775
+"UF_DESC","Rondônia","Insegurança leve",26.1525441495085
+"UF_DESC","Rondônia","Insegurança moderada",6.68237761340159
+"UF_DESC","Rondônia","Insegurança grave",3.41584595911242
+"UF_DESC","Acre","Segurança",41.3484083168014
+"UF_DESC","Acre","Insegurança leve",32.4664926924724
+"UF_DESC","Acre","Insegurança moderada",13.8157337050735
+"UF_DESC","Acre","Insegurança grave",12.3693652856526
+"UF_DESC","Amazonas","Segurança",34.4603359570423
+"UF_DESC","Amazonas","Insegurança leve",31.7486957169971
+"UF_DESC","Amazonas","Insegurança moderada",19.6292287845799
+"UF_DESC","Amazonas","Insegurança grave",14.1617395413808
+"UF_DESC","Roraima","Segurança",60.4302339339083
+"UF_DESC","Roraima","Insegurança leve",23.6271421849507
+"UF_DESC","Roraima","Insegurança moderada",6.72159270154013
+"UF_DESC","Roraima","Insegurança grave",9.22103117960084
+"UF_DESC","Pará","Segurança",38.7580518469766
+"UF_DESC","Pará","Insegurança leve",34.087672032406
+"UF_DESC","Pará","Insegurança moderada",16.1401603332273
+"UF_DESC","Pará","Insegurança grave",11.01411578739
+"UF_DESC","Amapá","Segurança",40.5718075554388
+"UF_DESC","Amapá","Insegurança leve",29.7262818738987
+"UF_DESC","Amapá","Insegurança moderada",19.1261844985117
+"UF_DESC","Amapá","Insegurança grave",10.5757260721509
+"UF_DESC","Tocantins","Segurança",54.3753692201078
+"UF_DESC","Tocantins","Insegurança leve",30.3002385070298
+"UF_DESC","Tocantins","Insegurança moderada",10.5991391302828
+"UF_DESC","Tocantins","Insegurança grave",4.72525314257958
+"UF_DESC","Maranhão","Segurança",33.8489464829726
+"UF_DESC","Maranhão","Insegurança leve",35.2353717149491
+"UF_DESC","Maranhão","Insegurança moderada",18.5761203873457
+"UF_DESC","Maranhão","Insegurança grave",12.3395614147326
+"UF_DESC","Piauí","Segurança",54.0132219615326
+"UF_DESC","Piauí","Insegurança leve",28.9126788387535
+"UF_DESC","Piauí","Insegurança moderada",11.0226191489467
+"UF_DESC","Piauí","Insegurança grave",6.0514800507672
+"UF_DESC","Ceará","Segurança",53.1271546249724
+"UF_DESC","Ceará","Insegurança leve",27.791899858764
+"UF_DESC","Ceará","Insegurança moderada",12.8867336944972
+"UF_DESC","Ceará","Insegurança grave",6.19421182176644
+"UF_DESC","Rio Grande do Norte","Segurança",45.3214716843547
+"UF_DESC","Rio Grande do Norte","Insegurança leve",33.5360822688689
+"UF_DESC","Rio Grande do Norte","Insegurança moderada",13.5884337371094
+"UF_DESC","Rio Grande do Norte","Insegurança grave",7.55401230966709
+"UF_DESC","Paraíba","Segurança",46.5365978991728
+"UF_DESC","Paraíba","Insegurança leve",33.9183887568133
+"UF_DESC","Paraíba","Insegurança moderada",13.2240380244286
+"UF_DESC","Paraíba","Insegurança grave",6.32097531958533
+"UF_DESC","Pernambuco","Segurança",51.7396331207242
+"UF_DESC","Pernambuco","Insegurança leve",28.497221321915
+"UF_DESC","Pernambuco","Insegurança moderada",12.9808670793017
+"UF_DESC","Pernambuco","Insegurança grave",6.78227847805909
+"UF_DESC","Alagoas","Segurança",43.3221848026308
+"UF_DESC","Alagoas","Insegurança leve",35.1962685359701
+"UF_DESC","Alagoas","Insegurança moderada",13.771861227355
+"UF_DESC","Alagoas","Insegurança grave",7.70968543404408
+"UF_DESC","Sergipe","Segurança",51.5359687198202
+"UF_DESC","Sergipe","Insegurança leve",31.1745272151314
+"UF_DESC","Sergipe","Insegurança moderada",11.8992716316701
+"UF_DESC","Sergipe","Insegurança grave",5.39023243337838
+"UF_DESC","Bahia","Segurança",54.6505248918914
+"UF_DESC","Bahia","Insegurança leve",26.5204521952055
+"UF_DESC","Bahia","Insegurança moderada",12.4951286816629
+"UF_DESC","Bahia","Insegurança grave",6.33389423124013
+"UF_DESC","Minas Gerais","Segurança",68.8396928812682
+"UF_DESC","Minas Gerais","Insegurança leve",21.8317129014102
+"UF_DESC","Minas Gerais","Insegurança moderada",6.07379995830687
+"UF_DESC","Minas Gerais","Insegurança grave",3.25479425901468
+"UF_DESC","Espírito Santo","Segurança",69.3148453229695
+"UF_DESC","Espírito Santo","Insegurança leve",21.1144158361313
+"UF_DESC","Espírito Santo","Insegurança moderada",6.15266517012205
+"UF_DESC","Espírito Santo","Insegurança grave",3.41807367077717
+"UF_DESC","Rio de Janeiro","Segurança",67.799016531002
+"UF_DESC","Rio de Janeiro","Insegurança leve",21.9408937629607
+"UF_DESC","Rio de Janeiro","Insegurança moderada",6.83279211749063
+"UF_DESC","Rio de Janeiro","Insegurança grave",3.42729758854668
+"UF_DESC","São Paulo","Segurança",69.1511500759811
+"UF_DESC","São Paulo","Insegurança leve",23.2189747803565
+"UF_DESC","São Paulo","Insegurança moderada",5.18747048117947
+"UF_DESC","São Paulo","Insegurança grave",2.4424046624829
+"UF_DESC","Paraná","Segurança",77.522786054224
+"UF_DESC","Paraná","Insegurança leve",17.6329019978275
+"UF_DESC","Paraná","Insegurança moderada",2.67444151759622
+"UF_DESC","Paraná","Insegurança grave",2.16987043035228
+"UF_DESC","Santa Catarina","Segurança",86.8773393761532
+"UF_DESC","Santa Catarina","Insegurança leve",9.00233941213114
+"UF_DESC","Santa Catarina","Insegurança moderada",2.13875699936585
+"UF_DESC","Santa Catarina","Insegurança grave",1.98156421234983
+"UF_DESC","Rio Grande do Sul","Segurança",76.4889666600231
+"UF_DESC","Rio Grande do Sul","Insegurança leve",16.7838908094214
+"UF_DESC","Rio Grande do Sul","Insegurança moderada",4.29559433489668
+"UF_DESC","Rio Grande do Sul","Insegurança grave",2.43154819565883
+"UF_DESC","Mato Grosso do Sul","Segurança",62.9934588165889
+"UF_DESC","Mato Grosso do Sul","Insegurança leve",25.7663665849646
+"UF_DESC","Mato Grosso do Sul","Insegurança moderada",6.72848763555781
+"UF_DESC","Mato Grosso do Sul","Insegurança grave",4.51168696288875
+"UF_DESC","Mato Grosso","Segurança",66.625616227466
+"UF_DESC","Mato Grosso","Insegurança leve",22.2613662606009
+"UF_DESC","Mato Grosso","Insegurança moderada",7.10492807225798
+"UF_DESC","Mato Grosso","Insegurança grave",4.00808943967506
+"UF_DESC","Goiás","Segurança",63.6201875224303
+"UF_DESC","Goiás","Insegurança leve",23.5815428945442
+"UF_DESC","Goiás","Insegurança moderada",7.79779006465216
+"UF_DESC","Goiás","Insegurança grave",5.0004795183734
+"UF_DESC","Distrito Federal","Segurança",67.2510798894032
+"UF_DESC","Distrito Federal","Insegurança leve",21.1797342620214
+"UF_DESC","Distrito Federal","Insegurança moderada",6.57137775524854
+"UF_DESC","Distrito Federal","Insegurança grave",4.99780809332686
+"URBANO_RURAL_DESC","Urbano","Segurança",64.8536028234927
+"URBANO_RURAL_DESC","Urbano","Insegurança leve",23.5173907564426
+"URBANO_RURAL_DESC","Urbano","Insegurança moderada",7.48466020836053
+"URBANO_RURAL_DESC","Urbano","Insegurança grave",4.14434621170415
+"URBANO_RURAL_DESC","Rural","Segurança",53.560902675604
+"URBANO_RURAL_DESC","Rural","Insegurança leve",27.171405056807
+"URBANO_RURAL_DESC","Rural","Insegurança moderada",12.152946165558
+"URBANO_RURAL_DESC","Rural","Insegurança grave",7.11474610203096
