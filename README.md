@@ -1,4 +1,4 @@
-# Quem passa fome no Brasil? Renda, território e insegurança alimentar (POF 2017-2018)
+# Insegurança alimentar e perfil socioeconômico no Brasil (POF 2017-2018)
 
 Como a insegurança alimentar se distribui entre os domicílios brasileiros, e o que isso diz sobre onde concentrar a política de combate à fome? Análise dos microdados da Pesquisa de Orçamentos Familiares (POF/IBGE), com o plano amostral complexo da pesquisa.
 
