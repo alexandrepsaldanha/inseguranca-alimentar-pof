@@ -1,16 +1,43 @@
-# Insegurança alimentar e perfil socioeconômico no Brasil (POF 2017-2018)
+# Quem passa fome no Brasil? Renda, território e insegurança alimentar (POF 2017-2018)
 
-Estimativas da insegurança alimentar nos domicílios brasileiros segundo renda, escolaridade, características demográficas e território, com os microdados da Pesquisa de Orçamentos Familiares (POF/IBGE) e o plano amostral complexo da pesquisa.
+Como a insegurança alimentar se distribui entre os domicílios brasileiros, e o que isso diz sobre onde concentrar a política de combate à fome? Análise dos microdados da Pesquisa de Orçamentos Familiares (POF/IBGE), com o plano amostral complexo da pesquisa.
 
 ![Segurança alimentar por renda domiciliar per capita](output/figures/seguranca_por_faixa_renda_pc.png)
 
-**Resultado principal:** a insegurança alimentar acompanha a renda de perto. Nos domicílios com renda per capita de até R$ 500, só 32% estão em segurança alimentar e 13% em insegurança grave. Acima de R$ 5.000, 95% estão em segurança e a insegurança grave fica abaixo de 1%.
+**Resultado principal:** a insegurança alimentar grave, que corresponde à fome, é fortemente concentrada na base da distribuição de renda. Os **12% de domicílios com renda per capita de até R$ 500 concentram 35% dos casos de insegurança grave**, e os 36% com até R$ 1.000 concentram 67%. Nesse grupo mais pobre, 13% dos domicílios estão em insegurança grave; acima de R$ 5.000, 0,4%.
 
 ---
 
-## Pergunta
+## Pergunta econômica
 
-Como a segurança alimentar dos domicílios brasileiros varia segundo renda, escolaridade, idade, sexo, cor ou raça da pessoa de referência, composição familiar e localização?
+A insegurança alimentar medida pela EBIA é um problema de **acesso**, e não de oferta: o Brasil produz alimento suficiente. A pergunta é, portanto, distributiva: quais domicílios não conseguem transformar renda em uma alimentação regular e adequada, e o quanto a renda, sozinha, explica esse padrão?
+
+## Mecanismo
+
+- **Restrição orçamentária.** Pela lei de Engel, quanto mais pobre o domicílio, maior a parcela da renda gasta com alimentação. Na base da distribuição, não há margem para absorver uma alta de preços ou uma perda de renda sem reduzir a quantidade ou a qualidade do que se come.
+- **Restrição de liquidez.** Sem crédito ou poupança, os domicílios pobres não conseguem suavizar o consumo diante de choques de renda; a insegurança alimentar é a forma que essa impossibilidade assume no consumo mais essencial.
+- **Composição do domicílio.** Domicílios com um único adulto têm uma só fonte potencial de renda do trabalho e ninguém com quem dividir o risco de perdê-la.
+
+## O que os dados mostram
+
+Prevalência de insegurança alimentar **grave** nos extremos de cada dimensão, e a diferença em pontos percentuais:
+
+| Dimensão | Grupo mais exposto | Grupo menos exposto | Diferença |
+|---|---:|---:|---:|
+| Renda per capita | Até R$ 500: 12,9% | Acima de R$ 5.000: 0,4% | 12,5 p.p. |
+| Escolaridade da pessoa de referência | Sem instrução: 9,4% | Superior completo: 0,9% | 8,5 p.p. |
+| Região | Norte: 10,2% | Sul: 2,2% | 8,0 p.p. |
+| Composição do domicílio | Um único adulto: 8,0–8,2% | Idosos sem outros adultos: 2,5% | 5,7 p.p. |
+| Cor ou raça | Preta ou parda: 6,1–6,2% | Branca: 2,6% | 3,5 p.p. |
+| Situação | Rural: 7,1% | Urbano: 4,1% | 3,0 p.p. |
+| Sexo da pessoa de referência | Mulher: 5,6% | Homem: 3,8% | 1,8 p.p. |
+
+A renda produz o maior gradiente, mas as outras dimensões estão correlacionadas com ela: escolaridade, região e cor ou raça também são determinantes da renda. Esta análise mostra **onde** o problema está; ela não separa **quanto** de cada diferença sobrevive quando a renda é mantida constante.
+
+## O que a análise permite concluir
+
+- **É descritiva, não causal.** As diferenças acima são associações. Os testes de Rao-Scott confirmam que todas são estatisticamente significativas, mas, com 57.920 domicílios, isso é esperado; a informação está no **tamanho** das diferenças.
+- **Implicação de política.** A concentração na base da renda sustenta a focalização por renda, que é a base de programas como o Bolsa Família: um corte de renda per capita de até R$ 1.000 (valores de 2018) alcançaria dois terços dos casos de fome com pouco mais de um terço dos domicílios. Se os gradientes por região, composição do domicílio e cor ou raça persistirem com a renda controlada, critérios complementares de focalização ganham justificativa. Essa é a pergunta do próximo passo.
 
 ## Dados
 
@@ -22,7 +49,7 @@ Como a segurança alimentar dos domicílios brasileiros varia segundo renda, esc
 | **Amostra** | 57.920 domicílios |
 | **Registros usados** | MORADOR e DOMICILIO |
 
-## Estratégia empírica
+## Método
 
 1. **Plano amostral:** estratos (`ESTRATO_POF`), conglomerados (`COD_UPA`) e pesos (`PESO_FINAL`) declarados com o pacote `survey`. Sem isso, os erros-padrão saem subestimados.
 2. **Distribuições univariadas** ponderadas, com erro-padrão, intervalo de confiança de 95% e coeficiente de variação.
@@ -90,8 +117,8 @@ Requer R ≥ 4.1 e os pacotes `dplyr`, `ggplot2`, `survey` e `writexl` (instalad
 
 ## Próximos passos
 
+- **Determinantes condicionais:** logit ordenado com o plano amostral (`svyolr`), para medir quanto do gradiente por região, escolaridade, composição familiar e cor ou raça persiste com a renda constante.
 - Incluir as condições de saneamento e energia elétrica, já presentes na base preparada.
-- Estimar modelos de regressão ordinal com o plano amostral (`svyolr`), para medir a associação de cada fator controlando pelos demais.
 
 ## Autor
 
